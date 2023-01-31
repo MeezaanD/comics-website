@@ -17,7 +17,6 @@ body {
   box-shadow: 0 20px 30px rgba(0,0,0,0.2);
   backdrop-filter: blur(10px);
   min-width: 100vw;
-  height: 40px;
 }
   
 #home {
@@ -69,7 +68,7 @@ body {
     color: white;
     left:0px;
     bottom:0;
-    height:30px;
+    height:20vh;
 }
 
 #movies {
@@ -77,3 +76,9 @@ body {
     grid-template-columns: (3,1);
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}

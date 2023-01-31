@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url('https://i.postimg.cc/52S6rgm3/graf.jpg');
+    background-image: url('https://i.postimg.cc/631HfggM/background-concept.jpg');
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
@@ -21,8 +21,12 @@ body {
   .about-container {
     height: auto;
     background-color: black;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    padding-top: 50px;
    
   }
+
 
 .about {
   color: rgba(255, 255, 0, 0.756);
@@ -35,9 +39,29 @@ body {
     margin-left: auto;
 }
 
-.brand {
-    height: 45rem;
-    width: 100%;
-    max-width: 45rem;
-    padding: 70px;
+.text {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Permanent Marker', cursive;
+  color: yellow;
+  padding: 50px;
+}
+
+.marvel {
+  height: 100vh;
+  background-color: transparent;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.dc {
+  height: 100vh;
+  background-color: transparent;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
 }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Permanent+Marker&display=swap');
+
+body {
+    background-image: url('https://i.postimg.cc/GpDmkT2N/display.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .container{
+    background-color: black;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    min-width: 100vw;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+}
