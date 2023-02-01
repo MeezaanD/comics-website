@@ -47,21 +47,24 @@ body {
 }
 
 .marvel {
-  height: 100vh;
-  background-color: transparent;
+  height: auto;
+  background-color: black;
   box-shadow: 0 20px 30px rgba(0,0,0,0.2);
   backdrop-filter: blur(10px);
   font-family: 'Dancing Script', cursive;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+  color: yellow;
 }
 
 .dc {
-  height: 100vh;
-  background-color: transparent;
+  height: auto;
+  background-color: black;
   box-shadow: 0 20px 30px rgba(0,0,0,0.2);
   backdrop-filter: blur(10px);
   font-family: 'Dancing Script', cursive;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
+  color: yellow;
+
 }
